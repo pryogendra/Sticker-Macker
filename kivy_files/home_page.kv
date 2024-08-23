@@ -1,0 +1,15 @@
+<HomePage>
+    MDBoxLayout:
+        size:root.size
+        orientation:'vertical'
+        padding:50
+        MDLabel:
+            text:"Sticker Macker"
+            bold:True
+            font_size:100
+            halign:'center'
+        MDRaisedButton:
+            text:"GO"
+            size_hint:0.2,0.1
+            pos_hint:{'center_x':0.5,}
+            on_press:app.go()

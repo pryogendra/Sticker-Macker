@@ -1,0 +1,31 @@
+<Go>
+    name:"go"
+    MDFloatLayout:
+        size:root.size
+        MDLabel:
+            text:'FORM'
+            font_size:50
+            bold:True
+            pos_hint:{'top':1.4,'center_x':0.9}
+        MDTextField:
+            id:file
+            hint_text: "Selected Image File"
+            size_hint_x: None
+            width: 400
+            pos_hint:{'top':0.8,'center_x':0.4}
+        MDRectangleFlatButton:
+            text:"Browse"
+            pos_hint:{'top':0.78,'center_x':0.73}
+            on_press:app.file_manager_open()
+        MDTextField:
+            id:text
+            hint_text:'Enter text here :'
+            size_hint_x:None
+            width:400
+            pos_hint:{'top':0.63,'center_x':0.4}
+        MDRaisedButton:
+            text:'Generate Sticker'
+            bold:True
+            fon_size:20
+            pos_hint:{'top':0.45,'center_x':0.5}
+            on_press:root.create_sticker()
