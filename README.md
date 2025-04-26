@@ -9,7 +9,10 @@ Features
     Add custom text to the image.
     Save the final sticker as an image file.
 
-Prerequisites
+Screenshots :
+![Screenshot From 2025-04-26 18-41-18](https://github.com/user-attachments/assets/fd36864c-9f5e-42df-989a-423a5c2d2af6)
+![Screenshot From 2025-04-26 18-41-14](https://github.com/user-attachments/assets/63e75c83-0577-4812-a994-3e1e9df26bec)
+
 
 Before you can run the Sticker Maker, ensure you have the following installed:
 
